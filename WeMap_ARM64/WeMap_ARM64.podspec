@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   DESC
 
   spec.homepage     = "https://github.com/HBNUxFIMO/WeMap_ARM64"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.license      = { :type => "MIT", :file => "WeMap_ARM64/LICENSE" }
 
   spec.author       = { "giljihun" => "accc45@outlook.com" }
 
