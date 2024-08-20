@@ -2,14 +2,15 @@
 build/
 DerivedData/
 xcuserdata/
+*.xcuserstate
+*.xcworkspace
 
 # CocoaPods
-/Pods/
+Pods/
 
 # Swift Package Manager
-/.build/
-/Packages/
+.build/
+Packages/
 
 # 기타 무시할 항목들
-*.xcuserstate
-*.DS_Store
+.DS_Store
