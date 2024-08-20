@@ -1,8 +1,16 @@
-platform :ios, '14.0'
+platform :ios, '14.0'/Users/kiljihun/Desktop/WeMap_ARM64/WeMap_ARM64/Podfile
+
+use_frameworks!
 
 target 'WeMap_ARM64' do
-  use_frameworks!
-
-  # Mapbox-iOS-SDK 의존성 추가
-  pod 'Mapbox-iOS-SDK', '~> 5.6.0'
+  pod 'Mapbox-iOS-SDK', '~> 6.4.1'
+  
+  post_install do |installer|
+   installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+     config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '14.0'
+    end
+   end
+  end
 end
+
