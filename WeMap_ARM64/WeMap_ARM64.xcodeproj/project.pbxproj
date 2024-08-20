@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40DFC1B22C742E8F00636650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1B12C742E8F00636650 /* AppDelegate.swift */; };
+		40DFC1B42C742E8F00636650 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1B32C742E8F00636650 /* SceneDelegate.swift */; };
+		40DFC1B62C742E8F00636650 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1B52C742E8F00636650 /* ViewController.swift */; };
+		40DFC1B92C742E8F00636650 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 40DFC1B82C742E8F00636650 /* Base */; };
+		40DFC1BB2C742E9100636650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DFC1BA2C742E9100636650 /* Assets.xcassets */; };
+		40DFC1BE2C742E9100636650 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 40DFC1BD2C742E9100636650 /* Base */; };
+		40DFC1DC2C742EC000636650 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 40DFC1C52C742EC000636650 /* .gitkeep */; };
+		40DFC1DD2C742EC000636650 /* WeMapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1C62C742EC000636650 /* WeMapAnnotation.swift */; };
+		40DFC1DE2C742EC000636650 /* WeMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1C72C742EC000636650 /* WeMapAnnotationView.swift */; };
+		40DFC1DF2C742EC000636650 /* WeMapCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1C82C742EC000636650 /* WeMapCamera.swift */; };
+		40DFC1E02C742EC000636650 /* WeMapContants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1C92C742EC000636650 /* WeMapContants.swift */; };
+		40DFC1E12C742EC000636650 /* WeMapDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1CA2C742EC000636650 /* WeMapDirection.swift */; };
+		40DFC1E22C742EC000636650 /* WeMapDirectionOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1CB2C742EC000636650 /* WeMapDirectionOptions.swift */; };
+		40DFC1E32C742EC000636650 /* WeMapDirectionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1CC2C742EC000636650 /* WeMapDirectionResponse.swift */; };
+		40DFC1E42C742EC000636650 /* WeMapFillStyleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1CD2C742EC000636650 /* WeMapFillStyleLayer.swift */; };
+		40DFC1E52C742EC000636650 /* WeMapLatLonBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1CE2C742EC000636650 /* WeMapLatLonBounds.swift */; };
+		40DFC1E62C742EC000636650 /* WeMapLineStyleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1CF2C742EC000636650 /* WeMapLineStyleLayer.swift */; };
+		40DFC1E72C742EC000636650 /* WeMapPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1D02C742EC000636650 /* WeMapPlace.swift */; };
+		40DFC1E82C742EC000636650 /* WeMapPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1D12C742EC000636650 /* WeMapPointAnnotation.swift */; };
+		40DFC1E92C742EC000636650 /* WeMapRasterStyleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1D22C742EC000636650 /* WeMapRasterStyleLayer.swift */; };
+		40DFC1EA2C742EC000636650 /* WeMapSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1D32C742EC000636650 /* WeMapSearch.swift */; };
+		40DFC1EB2C742EC000636650 /* WeMapSearchOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1D42C742EC000636650 /* WeMapSearchOptions.swift */; };
+		40DFC1EC2C742EC000636650 /* WeMapShapeSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1D52C742EC000636650 /* WeMapShapeSource.swift */; };
+		40DFC1ED2C742EC000636650 /* WeMapStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1D62C742EC000636650 /* WeMapStyle.swift */; };
+		40DFC1EE2C742EC000636650 /* WeMapStyleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1D72C742EC000636650 /* WeMapStyleLayer.swift */; };
+		40DFC1EF2C742EC000636650 /* WeMapSymbolStyleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1D82C742EC000636650 /* WeMapSymbolStyleLayer.swift */; };
+		40DFC1F02C742EC000636650 /* WeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1D92C742EC000636650 /* WeMapView.swift */; };
+		40DFC1F12C742EC000636650 /* WeMapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFC1DA2C742EC000636650 /* WeMapViewDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40DFC1AE2C742E8F00636650 /* WeMap_ARM64.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeMap_ARM64.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DFC1B12C742E8F00636650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40DFC1B32C742E8F00636650 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		40DFC1B52C742E8F00636650 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40DFC1B82C742E8F00636650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40DFC1BA2C742E9100636650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40DFC1BD2C742E9100636650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40DFC1BF2C742E9100636650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40DFC1C52C742EC000636650 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		40DFC1C62C742EC000636650 /* WeMapAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapAnnotation.swift; sourceTree = "<group>"; };
+		40DFC1C72C742EC000636650 /* WeMapAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapAnnotationView.swift; sourceTree = "<group>"; };
+		40DFC1C82C742EC000636650 /* WeMapCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapCamera.swift; sourceTree = "<group>"; };
+		40DFC1C92C742EC000636650 /* WeMapContants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapContants.swift; sourceTree = "<group>"; };
+		40DFC1CA2C742EC000636650 /* WeMapDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapDirection.swift; sourceTree = "<group>"; };
+		40DFC1CB2C742EC000636650 /* WeMapDirectionOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapDirectionOptions.swift; sourceTree = "<group>"; };
+		40DFC1CC2C742EC000636650 /* WeMapDirectionResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapDirectionResponse.swift; sourceTree = "<group>"; };
+		40DFC1CD2C742EC000636650 /* WeMapFillStyleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapFillStyleLayer.swift; sourceTree = "<group>"; };
+		40DFC1CE2C742EC000636650 /* WeMapLatLonBounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapLatLonBounds.swift; sourceTree = "<group>"; };
+		40DFC1CF2C742EC000636650 /* WeMapLineStyleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapLineStyleLayer.swift; sourceTree = "<group>"; };
+		40DFC1D02C742EC000636650 /* WeMapPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapPlace.swift; sourceTree = "<group>"; };
+		40DFC1D12C742EC000636650 /* WeMapPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapPointAnnotation.swift; sourceTree = "<group>"; };
+		40DFC1D22C742EC000636650 /* WeMapRasterStyleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapRasterStyleLayer.swift; sourceTree = "<group>"; };
+		40DFC1D32C742EC000636650 /* WeMapSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapSearch.swift; sourceTree = "<group>"; };
+		40DFC1D42C742EC000636650 /* WeMapSearchOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapSearchOptions.swift; sourceTree = "<group>"; };
+		40DFC1D52C742EC000636650 /* WeMapShapeSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapShapeSource.swift; sourceTree = "<group>"; };
+		40DFC1D62C742EC000636650 /* WeMapStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapStyle.swift; sourceTree = "<group>"; };
+		40DFC1D72C742EC000636650 /* WeMapStyleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapStyleLayer.swift; sourceTree = "<group>"; };
+		40DFC1D82C742EC000636650 /* WeMapSymbolStyleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapSymbolStyleLayer.swift; sourceTree = "<group>"; };
+		40DFC1D92C742EC000636650 /* WeMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapView.swift; sourceTree = "<group>"; };
+		40DFC1DA2C742EC000636650 /* WeMapViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeMapViewDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40DFC1AB2C742E8F00636650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40DFC1A52C742E8F00636650 = {
+			isa = PBXGroup;
+			children = (
+				40DFC1B02C742E8F00636650 /* WeMap_ARM64 */,
+				40DFC1AF2C742E8F00636650 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40DFC1AF2C742E8F00636650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40DFC1AE2C742E8F00636650 /* WeMap_ARM64.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40DFC1B02C742E8F00636650 /* WeMap_ARM64 */ = {
+			isa = PBXGroup;
+			children = (
+				40DFC1B12C742E8F00636650 /* AppDelegate.swift */,
+				40DFC1B32C742E8F00636650 /* SceneDelegate.swift */,
+				40DFC1B52C742E8F00636650 /* ViewController.swift */,
+				40DFC1B72C742E8F00636650 /* Main.storyboard */,
+				40DFC1BA2C742E9100636650 /* Assets.xcassets */,
+				40DFC1BC2C742E9100636650 /* LaunchScreen.storyboard */,
+				40DFC1BF2C742E9100636650 /* Info.plist */,
+				40DFC1DB2C742EC000636650 /* Classes */,
+			);
+			path = WeMap_ARM64;
+			sourceTree = "<group>";
+		};
+		40DFC1DB2C742EC000636650 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				40DFC1C52C742EC000636650 /* .gitkeep */,
+				40DFC1C62C742EC000636650 /* WeMapAnnotation.swift */,
+				40DFC1C72C742EC000636650 /* WeMapAnnotationView.swift */,
+				40DFC1C82C742EC000636650 /* WeMapCamera.swift */,
+				40DFC1C92C742EC000636650 /* WeMapContants.swift */,
+				40DFC1CA2C742EC000636650 /* WeMapDirection.swift */,
+				40DFC1CB2C742EC000636650 /* WeMapDirectionOptions.swift */,
+				40DFC1CC2C742EC000636650 /* WeMapDirectionResponse.swift */,
+				40DFC1CD2C742EC000636650 /* WeMapFillStyleLayer.swift */,
+				40DFC1CE2C742EC000636650 /* WeMapLatLonBounds.swift */,
+				40DFC1CF2C742EC000636650 /* WeMapLineStyleLayer.swift */,
+				40DFC1D02C742EC000636650 /* WeMapPlace.swift */,
+				40DFC1D12C742EC000636650 /* WeMapPointAnnotation.swift */,
+				40DFC1D22C742EC000636650 /* WeMapRasterStyleLayer.swift */,
+				40DFC1D32C742EC000636650 /* WeMapSearch.swift */,
+				40DFC1D42C742EC000636650 /* WeMapSearchOptions.swift */,
+				40DFC1D52C742EC000636650 /* WeMapShapeSource.swift */,
+				40DFC1D62C742EC000636650 /* WeMapStyle.swift */,
+				40DFC1D72C742EC000636650 /* WeMapStyleLayer.swift */,
+				40DFC1D82C742EC000636650 /* WeMapSymbolStyleLayer.swift */,
+				40DFC1D92C742EC000636650 /* WeMapView.swift */,
+				40DFC1DA2C742EC000636650 /* WeMapViewDelegate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40DFC1AD2C742E8F00636650 /* WeMap_ARM64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DFC1C22C742E9100636650 /* Build configuration list for PBXNativeTarget "WeMap_ARM64" */;
+			buildPhases = (
+				40DFC1AA2C742E8F00636650 /* Sources */,
+				40DFC1AB2C742E8F00636650 /* Frameworks */,
+				40DFC1AC2C742E8F00636650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeMap_ARM64;
+			productName = WeMap_ARM64;
+			productReference = 40DFC1AE2C742E8F00636650 /* WeMap_ARM64.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40DFC1A62C742E8F00636650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					40DFC1AD2C742E8F00636650 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 40DFC1A92C742E8F00636650 /* Build configuration list for PBXProject "WeMap_ARM64" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40DFC1A52C742E8F00636650;
+			productRefGroup = 40DFC1AF2C742E8F00636650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40DFC1AD2C742E8F00636650 /* WeMap_ARM64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40DFC1AC2C742E8F00636650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DFC1BB2C742E9100636650 /* Assets.xcassets in Resources */,
+				40DFC1BE2C742E9100636650 /* Base in Resources */,
+				40DFC1B92C742E8F00636650 /* Base in Resources */,
+				40DFC1DC2C742EC000636650 /* .gitkeep in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40DFC1AA2C742E8F00636650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DFC1E02C742EC000636650 /* WeMapContants.swift in Sources */,
+				40DFC1EB2C742EC000636650 /* WeMapSearchOptions.swift in Sources */,
+				40DFC1B62C742E8F00636650 /* ViewController.swift in Sources */,
+				40DFC1E42C742EC000636650 /* WeMapFillStyleLayer.swift in Sources */,
+				40DFC1E62C742EC000636650 /* WeMapLineStyleLayer.swift in Sources */,
+				40DFC1E12C742EC000636650 /* WeMapDirection.swift in Sources */,
+				40DFC1F02C742EC000636650 /* WeMapView.swift in Sources */,
+				40DFC1EF2C742EC000636650 /* WeMapSymbolStyleLayer.swift in Sources */,
+				40DFC1DF2C742EC000636650 /* WeMapCamera.swift in Sources */,
+				40DFC1DD2C742EC000636650 /* WeMapAnnotation.swift in Sources */,
+				40DFC1F12C742EC000636650 /* WeMapViewDelegate.swift in Sources */,
+				40DFC1B22C742E8F00636650 /* AppDelegate.swift in Sources */,
+				40DFC1E72C742EC000636650 /* WeMapPlace.swift in Sources */,
+				40DFC1E22C742EC000636650 /* WeMapDirectionOptions.swift in Sources */,
+				40DFC1EC2C742EC000636650 /* WeMapShapeSource.swift in Sources */,
+				40DFC1E32C742EC000636650 /* WeMapDirectionResponse.swift in Sources */,
+				40DFC1E82C742EC000636650 /* WeMapPointAnnotation.swift in Sources */,
+				40DFC1ED2C742EC000636650 /* WeMapStyle.swift in Sources */,
+				40DFC1EA2C742EC000636650 /* WeMapSearch.swift in Sources */,
+				40DFC1E52C742EC000636650 /* WeMapLatLonBounds.swift in Sources */,
+				40DFC1EE2C742EC000636650 /* WeMapStyleLayer.swift in Sources */,
+				40DFC1B42C742E8F00636650 /* SceneDelegate.swift in Sources */,
+				40DFC1DE2C742EC000636650 /* WeMapAnnotationView.swift in Sources */,
+				40DFC1E92C742EC000636650 /* WeMapRasterStyleLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40DFC1B72C742E8F00636650 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40DFC1B82C742E8F00636650 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40DFC1BC2C742E9100636650 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40DFC1BD2C742E9100636650 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40DFC1C02C742E9100636650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40DFC1C12C742E9100636650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40DFC1C32C742E9100636650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5M5VM39FM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeMap_ARM64/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giljihun.WeMap-ARM64";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40DFC1C42C742E9100636650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5M5VM39FM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeMap_ARM64/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giljihun.WeMap-ARM64";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40DFC1A92C742E8F00636650 /* Build configuration list for PBXProject "WeMap_ARM64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DFC1C02C742E9100636650 /* Debug */,
+				40DFC1C12C742E9100636650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DFC1C22C742E9100636650 /* Build configuration list for PBXNativeTarget "WeMap_ARM64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DFC1C32C742E9100636650 /* Debug */,
+				40DFC1C42C742E9100636650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40DFC1A62C742E8F00636650 /* Project object */;
+}
