@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   WeMap_ARM64 is a library that integrates with Mapbox to provide enhanced mapping functionalities for iOS apps, targeting ARM64 architecture.
   DESC
 
-  spec.homepage     = "https://github.com/HBNUxFIMO/WeMap_ARM64"
+  spec.homepage     = "https://github.com/HBNUxFIMO/WeMap_ARM64.git"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "giljihun" => "accc45@outlook.com" }
 
