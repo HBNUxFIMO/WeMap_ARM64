@@ -1,13 +1,13 @@
 Pod::Spec.new do |spec|
   spec.name         = "WeMap_ARM64"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "WeMap_ARM64 is a library for enhanced mapping capabilities."
   spec.description  = <<-DESC
   WeMap_ARM64 is a library that integrates with Mapbox to provide enhanced mapping functionalities for iOS apps, targeting ARM64 architecture.
   DESC
 
   spec.homepage     = "https://github.com/HBNUxFIMO/WeMap_ARM64"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.license      = { :type => "MIT", :file => "WeMap_ARM64/LICENSE" }
   spec.author       = { "giljihun" => "accc45@outlook.com" }
 
   # Platform Specifics
