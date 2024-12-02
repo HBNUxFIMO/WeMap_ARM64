@@ -1,20 +1,37 @@
 PODS:
-  - Mapbox-iOS-SDK (5.6.1):
-    - MapboxMobileEvents (= 0.10.2)
-  - MapboxMobileEvents (0.10.2)
+  - MapboxCommon (24.8.0)
+  - MapboxCoreMaps (11.8.0):
+    - MapboxCommon (~> 24.8)
+  - MapboxMaps (11.8.0):
+    - MapboxCommon (= 24.8.0)
+    - MapboxCoreMaps (= 11.8.0)
+    - Turf (= 3.0.0)
+  - Turf (3.0.0)
+  - WeMapSDK (0.6.0):
+    - MapboxMaps (= 11.8.0)
 
 DEPENDENCIES:
-  - Mapbox-iOS-SDK (~> 5.6.0)
+  - MapboxMaps (= 11.8.0)
+  - WeMapSDK (from `../`)
 
 SPEC REPOS:
   trunk:
-    - Mapbox-iOS-SDK
-    - MapboxMobileEvents
+    - MapboxCommon
+    - MapboxCoreMaps
+    - MapboxMaps
+    - Turf
+
+EXTERNAL SOURCES:
+  WeMapSDK:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  Mapbox-iOS-SDK: b31bd62a5dd5b7e688eab787acd3d093a122f4d6
-  MapboxMobileEvents: 2bc0ca2eedb627b73cf403258dce2b2fa98074a6
+  MapboxCommon: 95fe03b74d0d0ca39dc646ca14862deb06875151
+  MapboxCoreMaps: f2a82182c5f6c6262220b81547c6df708012932b
+  MapboxMaps: dbe1869006c5918d62efc6b475fb884947ea2ecd
+  Turf: a1604e74adce15c58462c9ae2acdbf049d5be35e
+  WeMapSDK: 510d026f23bbf38e52b53a7be7b1863e256e1b63
 
-PODFILE CHECKSUM: dcfa49409516e4a32020cbc72fcb28aea030f9d3
+PODFILE CHECKSUM: 23b13472904390dc1e7079fce8cdb0f0e0b1cc70
 
 COCOAPODS: 1.15.2
