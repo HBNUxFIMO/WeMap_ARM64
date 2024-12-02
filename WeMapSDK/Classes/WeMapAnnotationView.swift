@@ -1,4 +1,4 @@
-import Mapbox
+import MapboxMaps
 
 public class WeMapAnnotationView  {
 //    private var mglAnnotationView: MGLAnnotationView;

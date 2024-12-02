@@ -7,7 +7,7 @@ PODS:
     - MapboxCoreMaps (= 11.8.0)
     - Turf (= 3.0.0)
   - Turf (3.0.0)
-  - WeMapSDK (0.6.0):
+  - WeMapSDK (1.0.0):
     - MapboxMaps (= 11.8.0)
 
 DEPENDENCIES:
@@ -30,7 +30,7 @@ SPEC CHECKSUMS:
   MapboxCoreMaps: f2a82182c5f6c6262220b81547c6df708012932b
   MapboxMaps: dbe1869006c5918d62efc6b475fb884947ea2ecd
   Turf: a1604e74adce15c58462c9ae2acdbf049d5be35e
-  WeMapSDK: 510d026f23bbf38e52b53a7be7b1863e256e1b63
+  WeMapSDK: a3eb6de0d4ddaa71c3bce23624c8a0e6794d1673
 
 PODFILE CHECKSUM: 23b13472904390dc1e7079fce8cdb0f0e0b1cc70
 

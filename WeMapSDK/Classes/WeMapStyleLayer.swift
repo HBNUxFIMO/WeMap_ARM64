@@ -1,4 +1,4 @@
-import Mapbox
+import MapboxMaps
 
 protocol WeMapStyleLayer {
     func getStyleLayer() -> MGLStyleLayer

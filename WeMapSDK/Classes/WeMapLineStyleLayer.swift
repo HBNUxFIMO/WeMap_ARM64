@@ -1,4 +1,4 @@
-import Mapbox
+import MapboxMaps
 
 public class WeMapLineStyleLayer {
     private var mglLineStyleLayer: MGLLineStyleLayer

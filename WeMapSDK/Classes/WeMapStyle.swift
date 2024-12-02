@@ -1,4 +1,4 @@
-import Mapbox
+import MapboxMaps
 
 open class WeMapStyle {
     

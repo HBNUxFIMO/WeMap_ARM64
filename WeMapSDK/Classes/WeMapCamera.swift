@@ -1,4 +1,4 @@
-import Mapbox
+import MapboxMaps
 
 public class WeMapCamera: NSObject {
     private var camera : MGLMapCamera

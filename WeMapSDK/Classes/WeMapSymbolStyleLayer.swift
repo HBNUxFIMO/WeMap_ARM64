@@ -1,4 +1,4 @@
-import Mapbox
+import MapboxMaps
 
 public class WeMapSymbolStyleLayer: WeMapStyleLayer {
     private var mglSymbolStyleLayer: MGLSymbolStyleLayer?

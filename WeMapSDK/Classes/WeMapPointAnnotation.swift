@@ -1,4 +1,4 @@
-import Mapbox
+import MapboxMaps
 
 open class WeMapPointAnnotation: WeMapAnnotation {
     private var annotaion: MGLPointAnnotation

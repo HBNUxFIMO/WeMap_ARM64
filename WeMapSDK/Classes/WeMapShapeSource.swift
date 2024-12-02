@@ -1,4 +1,4 @@
-import Mapbox
+import MapboxMaps
 
 public class WeMapShapeSource {
     private var shapeSource: MGLShapeSource

@@ -1,4 +1,4 @@
-import Mapbox
+import MapboxMaps
 
 public class WeMapFillStyleLayer {
     private var mglFillStyleLayer: MGLFillStyleLayer
